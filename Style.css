@@ -53,9 +53,11 @@ img {
     height: 300px;
     width: 400px;
     overflow: hidden;
-    margin-left: 25px;
+   /* margin-left: 25px;*/
+    display:inline-block;
 
 }
+
    
 
 /* The hero image */
