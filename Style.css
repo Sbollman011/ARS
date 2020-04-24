@@ -1,19 +1,31 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-image:  url(bearLogo.jpg);
+    border: 5px;
 }
 
 h1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bearLogo.jpg);
     background-size: contain;
     color: white;
     text-align: center;
     font-size: 500%;
 }
 
-p {
 
+p {
+    text-align:center;
     color: white;
-    font-size: 300%;
+    font-size: 150%;
+    position:relative;
+    top: 75px;
+}
+
+p2 {
+    text-align: left;
+    color: white;
+    font-size: 150%;
+    position: relative;
+    top: 75px;
 }
 
 body, html {
@@ -23,8 +35,8 @@ body, html {
     text-align: center;
 }
 button1 {
-    height: 50px;
-    width: 250px;
+    height: 25px;
+    width: 125px;
     background: darkred;
     background-size: contain;
     border: 3px solid black;
@@ -32,7 +44,7 @@ button1 {
     padding: 20px 80px;
     text-align: center;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 20px;
     left: 100px;
 }
 
@@ -40,26 +52,25 @@ image {
     height: 300px;
     width: 400px;
     overflow: hidden;
-    margin-left: 500px;
+    margin-left: 25px;
     height: auto;
     width: 400px;
 }
    
 
 /* The hero image */
-/*.hero-image {*/
+.hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    /*background-image: url("ApocolypseRocksPhoto.jpg");*/
-    /* Set a specific height */
-   /* height: 100%;*/
-    /* Position and center the image to scale nicely on all screens */
-   /** background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("bearLogo.jpg");
+    /*Set a specific height */
+    height: 20%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
     position: center;
     top: -115px;
     left: 0px;
-}*
+}
 
 /* Place text in the middle of the image */
 /*.hero-text {
