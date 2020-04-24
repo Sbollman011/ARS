@@ -1,92 +1,67 @@
 body {
-    background-color: ghostwhite;
-
+    background: url("GratefulIntro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 h1 {
-    color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bearLogo.jpg);
+    background-size: contain;
+    color: white;
     text-align: center;
     font-size: 500%;
-
 }
 
 p {
-    position:absolute;
-    top: 1000px;
-    left:10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: contain;
+    color: white;
     font-size: 300%;
 }
 
 body, html {
     height: 100%;
 }
-
+.button{
+    text-align: center;
+}
 button1 {
     height: 50px;
-    width: 200px;
-    background-color: white; /* Green */
-    border: 3px solid darkred;
-    color: black;
-    padding: 20px 60px;
+    width: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(TieDye.jpg);
+    background-size: contain;
+    border: 3px solid black;
+    color: white;
+    padding: 20px 80px;
     text-align: center;
     text-decoration: none;
     font-size: 35px;
-    position: absolute;
-    top: 900px;
-    left: 75px;
+    left: 100px;
 }
-
-button2 {
-    height: 50px;
-    width: 200px;
-    background-color: white; /* Green */
-    border: 3px solid darkred;
-    color: black;
-    padding: 20px 60px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 35px;
-    position: absolute;
-    top: 900px;
-    left: 575px;
-}
-
-button3 {
-    height: 50px;
-    width: 200px;
-    background-color: white; /* Green */
-    border: 3px solid darkred;
-    color: black;
-    padding: 20px 60px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 35px;
-    position: absolute;
-    top: 900px;
-    left: 1075px;
-}
+   
 
 /* The hero image */
-.hero-image {
+/*.hero-image {*/
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("ApocolypseRocksPhoto.jpg");
+    /*background-image: url("ApocolypseRocksPhoto.jpg");*/
     /* Set a specific height */
-    height: 100%;
+   /* height: 100%;*/
     /* Position and center the image to scale nicely on all screens */
-    background-position:center;
+   /** background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
+    background-size: cover;
+    position: center;
     top: -115px;
-    left:0px;
-}
+    left: 0px;
+}*
 
 /* Place text in the middle of the image */
-.hero-text {
+/*.hero-text {
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-}
+}*/
+
