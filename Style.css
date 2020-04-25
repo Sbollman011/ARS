@@ -1,6 +1,6 @@
 body {
-    background: black;
-   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GratefulIntro1.JPG);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GratefulIntro1.JPG);
+    background-size: 100% 100%;
 }
 
 h1 {
@@ -148,6 +148,8 @@ checkoutButton {
     text-align: center;
     position:relative;
     top: 16%;
+    display:inline;
+    margin-left: 6%;
 
 
 
