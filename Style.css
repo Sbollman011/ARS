@@ -67,8 +67,8 @@ stickerButton {
 }
 
 pinButton {
-    height: 75px;
-    width: 75px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pins2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -81,8 +81,8 @@ pinButton {
 }
 
 patchButton {
-    height: 75px;
-    width: 75px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Patches5.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -96,8 +96,8 @@ patchButton {
 
 
 crystalButton {
-    height: 75px;
-    width: 75px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -111,8 +111,8 @@ crystalButton {
 
 
 MiscButton {
-    height: 75px;
-    width: 75px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FannyPack4.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -126,8 +126,8 @@ MiscButton {
 
 
 checkoutButton {
-    height: 25px;
-    width: 125px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cart.jpg);
     background-size: contain;
     background-repeat: no-repeat;
