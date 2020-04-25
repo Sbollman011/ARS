@@ -145,7 +145,7 @@ checkoutButton {
     top: 0%;
 }
 .button2 {
-    text-align: center;
+    text-align: left;
     position:relative;
     top: 16%;
     display:inline;
