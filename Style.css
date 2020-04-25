@@ -1,7 +1,6 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    border-image:  url(bearLogo.jpg);
-    border: 5px;
+    background: black;
+   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GratefulIntro1.JPG);*/
 }
 
 h1 {
@@ -27,7 +26,7 @@ p2 {
     color: white;
     font-size: 150%;
     position: relative;
-    top: 75px;
+    top: 175px;
     margin-left:25px;
 }
 
@@ -37,6 +36,7 @@ body, html {
 .button{
     text-align: center;
 }
+
 button1 {
     height: 25px;
     width: 125px;
@@ -49,6 +49,99 @@ button1 {
     text-decoration: none;
     font-size: 20px;
 }
+
+stickerButton {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ironPatches10.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 125px 125px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+pinButton {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pins2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 125px 125px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+patchButton {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Patches5.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 125px 125px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+
+crystalButton {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 125px 125px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+
+MiscButton {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FannyPack4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 125px 125px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+
+
+
+
+.button2 {
+    text-align: center;
+    position:relative;
+    top: 150px;
+
+
+
+}
+
+.button3 {
+    text-align: center;
+    position: relative;
+    top: 375px;
+}
+
+
 
 img {
     height: 300px;
@@ -64,11 +157,11 @@ img {
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("bearLogo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     /*Set a specific height */
     height: 10%;
-    background-position: center;
-    background-repeat: repeat;
+    background-position: left;
+    background-repeat: no-repeat;
     background-size: contain;
     position: center;
     top: -115px;
