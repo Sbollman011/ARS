@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <meta charset="utf-8">
+    <title>Apocalypse Rock'n Shop</title>
+</head>
+
+<body>
+
+    <div class="buttonCheckout">
+        <br /><br />
+        <checkoutButton onclick="document.location = 'checkout.html'">Checkout</checkoutButton>
+
+    </div>
+
+    <h1>Apocalypse Rock'N Shop </h1>
+
+    <div class="button">
+        <br /><br />
+        <button1 onclick="document.location = 'Products.html'">About</button1>
+        <button1 onclick="document.location = 'home.html'">Shop</button1>
+        <button1 onclick="document.location = 'ContactUs.html'">Contact Us</button1>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AWVDq0rFezJsLAAEv06GFSfcCU0TyV2WoN1SGreNFEXi-Hf8lJ8_BTNqvVsQoPCX9iknoQS-GFY9pmis">
+        // Replace YOUR_SB_CLIENT_ID with your sandbox client ID
+    </script>
+
+    <div class="checkout">
+        <div id="paypal-button-container"></div>
+
+        <!-- Add the checkout buttons, set up the order and approve the order -->
+        <script>
+            paypal.Buttons({
+                createOrder: function (data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            amount: {
+                                value: '0.01'
+                            }
+                        }]
+                    });
+                },
+                onApprove: function (data, actions) {
+                    return actions.order.capture().then(function (details) {
+                        alert('Transaction completed by ' + details.payer.name.given_name);
+                    });
+                }
+            }).render('#paypal-button-container'); // Display payment options on your web page
+        </script>
+    </div>
+</body>
+</html>

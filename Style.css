@@ -48,6 +48,8 @@ button1 {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    position:relative;
+    top:-25px;
 }
 
 stickerButton {
@@ -123,9 +125,25 @@ MiscButton {
 }
 
 
+checkoutButton {
+    height: 25px;
+    width: 125px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cart.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
 
-
-
+.buttonCheckout {
+    text-align: right;
+    position: relative;
+    top: 0px;);
+}
 .button2 {
     text-align: center;
     position:relative;
@@ -152,7 +170,11 @@ img {
 
 }
 
-   
+.checkout{
+    text-align:center;
+    position: relative;
+    top: 100px;
+}
 
 /* The hero image */
 .hero-image {
