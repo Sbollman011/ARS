@@ -16,9 +16,9 @@ p {
     color: white;
     font-size: 150%;
     position:relative;
-    top: 75px;
-    margin-left:175px;
-    margin-right:175px;
+    top: 10%;
+    margin-left:25%;
+    margin-right:25%;
 }
 
 p2 {
@@ -26,8 +26,8 @@ p2 {
     color: white;
     font-size: 150%;
     position: relative;
-    top: 175px;
-    margin-left:25px;
+    top: 10%;
+    margin-left:25%;
 }
 
 body, html {
@@ -38,32 +38,32 @@ body, html {
 }
 
 button1 {
-    height: 25px;
-    width: 125px;
+    height: 25%;
+    width: 125%;
     background: darkred;
     background-size: contain;
     border: 3px solid black;
     color: white;
-    padding: 20px 80px;
+    padding: 2% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 150%;
     position:relative;
-    top:-25px;
+    top:-25%;
 }
 
 stickerButton {
-    height: 75px;
-    width: 75px;
+    height: 15%;
+    width: 15%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ironPatches10.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 125px 125px;
+    padding: 6% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 350%;
 }
 
 pinButton {
@@ -74,10 +74,10 @@ pinButton {
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 125px 125px;
+    padding: 6% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 350%;
 }
 
 patchButton {
@@ -88,10 +88,10 @@ patchButton {
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 125px 125px;
+    padding: 6% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 350%;
 }
 
 
@@ -103,10 +103,10 @@ crystalButton {
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 125px 125px;
+    padding: 6% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 350%;
 }
 
 
@@ -118,10 +118,10 @@ MiscButton {
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 125px 125px;
+    padding: 6% 8%;
     text-align: center;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 350%;
 }
 
 
@@ -133,21 +133,21 @@ checkoutButton {
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
-    padding: 20px 80px;
+    padding: 1.5% 2%;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 .buttonCheckout {
     text-align: right;
     position: relative;
-    top: 0px;);
+    top: 0%;
 }
 .button2 {
     text-align: center;
     position:relative;
-    top: 150px;
+    top: 16%;
 
 
 
@@ -156,24 +156,16 @@ checkoutButton {
 .button3 {
     text-align: center;
     position: relative;
-    top: 375px;
+    top: 18%;
 }
 
 
 
-img {
-    height: 300px;
-    width: 400px;
-    overflow: hidden;
-    margin-left: 25px;
-    display:inline-block;
-
-}
 
 .checkout{
     text-align:center;
     position: relative;
-    top: 100px;
+    top: 10%;
 }
 
 /* The hero image */
