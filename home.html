@@ -4,14 +4,16 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
     <meta charset="utf-8">
     <title>Apocalypse Rock'n Shop</title>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="shopping.js"></script>
 
 </head>
 <body>
 
     <div class="buttonCheckout">
         <br /><br />
+        <emptyCart onclick=emptyCart()>Empty Cart</emptyCart>
         <checkoutButton onclick="document.location = 'checkout.html'">Checkout</checkoutButton>
 
     </div>
@@ -43,6 +45,8 @@
     </div>
     <br /><br /><br /><br />
     <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+
+
 
 
 </body>

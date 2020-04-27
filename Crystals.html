@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="Style.css">
     <meta charset="utf-8">
-
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="shopping.js"></script>
     <title>Apocalypse Rock'n Shop</title>
 </head>
 <body>
 
     <div class="buttonCheckout">
         <br /><br />
+        <emptyCart onclick=emptyCart()>Empty Cart</emptyCart>
         <checkoutButton onclick="document.location = 'checkout.html'">Checkout</checkoutButton>
 
     </div>
@@ -26,10 +26,11 @@
         <button1 onclick="document.location = 'ContactUs.html'">Contact Us</button1>
     </div>
     <p>
-        <br />
-        "Crystals for purchase will go here"
-        <br />
+        Our Current Crystal Collection
         <br /><br /><br /><br /><br />
     </p>
+    <img src="Quartz1.JPG" height="20%" width="20%">
+    <addToCart style="margin:16px" onclick=addToCartC1()>Add To Cart</addToCart>
+
 </body>
 </html>
