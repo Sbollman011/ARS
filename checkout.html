@@ -6,10 +6,12 @@
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="shopping.js"></script>
     <meta charset="utf-8">
+
+   
     <title>Apocalypse Rock'n Shop</title>
 </head>
 
-<body>
+<<body onload="getTotal()">
 
     <div class="buttonCheckout">
         <br /><br />
@@ -25,16 +27,13 @@
         <button1 onclick="document.location = 'Products.html'">About</button1>
         <button1 onclick="document.location = 'home.html'">Shop</button1>
         <button1 onclick="document.location = 'ContactUs.html'">Contact Us</button1>
-        <button1 onclick=getTotal()>Get Total</button1>
     </div>
 
     <script src="https://www.paypal.com/sdk/js?client-id=AaCA2_5WvyzGSieR0cmqc6YNlu0OyeX8W-iVuo9PBCFcr4B50btMNrbQ7IT8ZQg350BuJn93XGPCB9-m">
         // Replace YOUR_SB_CLIENT_ID with your sandbox client ID
     </script>
     
-    <div onload="document.innerHTML(response)">
-        <p></p>
-    </div>
+    <p id="insert"></p>
    
       
         <div class="checkout">
@@ -47,7 +46,7 @@
                         return actions.order.create({
                             purchase_units: [{
                                 amount: {
-                                    value: '0.01'
+                                    value: amountDue()
                                 }
                             }]
                         });

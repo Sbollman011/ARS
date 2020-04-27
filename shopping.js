@@ -11,7 +11,7 @@ var C1 = {
 
 
 var cart = Array();
-var totalCost = 0;
+var total = 0;
 var productList =""
 localStorage.setItem('cart', existing.toString());
 
@@ -19,24 +19,25 @@ localStorage.setItem('cart', existing.toString());
 function getTotal() {
     var cart = (localStorage.getItem("cart"));
     cart = JSON.parse(cart);
-    total = 0;
     response = "";
     for (i = 0; i < cart.length; i++) {
         total = total + cart[i].price;
-        response = response + cart[i].name + " : $" + cart[i].price + "\n"
+        response = response + cart[i].name + " : $" + cart[i].price + '<br/>';
     }
 
     response = response + "Your total is $" + total;
-    alert(response);
+   // alert(response);
     document.getElementById("insert").innerHTML = response;
    // document.getElementById(response).value = response;
-
    /* for (i = 0; i < cart.length; i++) {
         alert("These are your items: \n" + cart[i].name + " : " + cart[i].price);
     }*/
 
 }
 
+function amountDue() {
+    return total;
+}
 function addToCartC1() {
     var cart = (localStorage.getItem("cart"));
     cart = JSON.parse(cart);
@@ -53,6 +54,7 @@ function emptyCart() {
     cart = cart ? cart.split(',') : [];
     cart = [];
     alert("All items removed from cart.");
+    total = 0;
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
