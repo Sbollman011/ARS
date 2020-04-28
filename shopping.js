@@ -3,7 +3,7 @@ var C1 = {
     id: "C1",
     name: "Crystal",
     description: "A hand-dug Crystal from the Ozarks",
-    price: 20
+    price: .01
 
 };
 
@@ -11,8 +11,7 @@ var C1 = {
 
 
 var cart = Array();
-var total = 0;
-var productList =""
+total = 0;
 localStorage.setItem('cart', existing.toString());
 
 
@@ -43,7 +42,7 @@ function addToCartC1() {
     cart = JSON.parse(cart);
     C1 = new Object();
     C1.name = "Crystal"
-    C1.price = 20;
+    C1.price = .01;
     cart.push(C1);
     items = cart.length;
     alert(C1.name + " has been added to your cart. You now have a total of " + items + " items in your cart");
@@ -58,3 +57,15 @@ function emptyCart() {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+function emailConfirmation(customer) {
+    var cart = (localStorage.getItem("cart"));
+    cart = JSON.parse(cart);
+    response = "";
+    for (i = 0; i < cart.length; i++) {
+        total = total + cart[i].price;
+        response = response + cart[i].name + " : $" + cart[i].price + "\n" +'<br/>';
+    }
+
+    return response + " has been ordered by " + customer;
+ 
+}

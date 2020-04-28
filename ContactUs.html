@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Apocalypse Rock'n Shop</title>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="shopping.js"></script>
 </head>
 <body>
 
@@ -24,14 +25,24 @@
         <button1 onclick="document.location = 'home.html'">Shop</button1>
         <button1 onclick="document.location = 'ContactUs.html'">Contact Us</button1>
     </div>
-    <p>
-        Please send any inquries to the this email.
-        <br />
-        Thanks!
-        <br />
-        Email: Apapocalypserocknshop@gmail.com
 
-        <br /><br /><br /><br /><br />
-    </p>
+ 
+    <div class="emailForm">
+
+        <h2>Have Questions? Contact us here!</h2>
+        <form action="mailto:apocalypserocknshop@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <br /><br /><br /><br /><br />
+
 </body>
 </html>
