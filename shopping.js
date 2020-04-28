@@ -57,15 +57,3 @@ function emptyCart() {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-function emailConfirmation(customer) {
-    var cart = (localStorage.getItem("cart"));
-    cart = JSON.parse(cart);
-    response = "";
-    for (i = 0; i < cart.length; i++) {
-        total = total + cart[i].price;
-        response = response + cart[i].name + " : $" + cart[i].price + "\n" +'<br/>';
-    }
-
-    return response + " has been ordered by " + customer;
- 
-}
