@@ -60,7 +60,7 @@ stickerButton {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ironPatches10.JPG);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -74,7 +74,7 @@ pinButton {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pins2.jpg);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -88,7 +88,7 @@ patchButton {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Patches5.JPG);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -103,7 +103,7 @@ crystalButton {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.jpg);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -117,7 +117,7 @@ C1Button {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.jpg);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -163,7 +163,7 @@ MiscButton {
     height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FannyPack4.jpg);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid black;
     color: white;
@@ -195,21 +195,22 @@ checkoutButton {
     text-align: right;
     position: relative;
     top: 0%;
+    margin-right:5%;
 }
 .button2 {
     height: auto;
     width: 100%;
     text-align: center;
-    position: relative;
-    top: 16%;
+    position: absolute;
+    top: 65%;
 }
 
 .button3 {
     height: auto;
     width: 100%;
     text-align: center;
-    position: relative;
-    top: 18%;
+    position: absolute;
+    top: 95%;
 }
 
 
