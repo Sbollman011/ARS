@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GratefulIntro1.JPG);
     background-size: 100% 100%;
+    width: 100%;
 }
 
 h1 {
@@ -8,17 +9,17 @@ h1 {
     color: white;
     text-align: center;
     font-size: 500%;
+    width: 100%;
 }
 
 
 p {
-    text-align:center;
+    text-align: center;
     color: white;
     font-size: 150%;
-    position:relative;
+    position: relative;
     top: 10%;
-    margin-left:25%;
-    margin-right:25%;
+    width: 100%;
 }
 
 p2 {
@@ -27,19 +28,22 @@ p2 {
     font-size: 150%;
     position: relative;
     top: 10%;
-    margin-left:25%;
+
+    width: 100%;
 }
 
 body, html {
     height: 100%;
+    width: 100%;
 }
 .button{
     text-align: center;
+    width: 100%;
 }
 
 button1 {
-    height: 25%;
-    width: 125%;
+    height: auto;
+    width: 100%;
     background: darkred;
     background-size: contain;
     border: 3px solid black;
@@ -48,13 +52,13 @@ button1 {
     text-align: center;
     text-decoration: none;
     font-size: 150%;
-    position:relative;
-    top:-25%;
+    position: relative;
+    top: -25%;
 }
 
 stickerButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ironPatches10.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -67,8 +71,8 @@ stickerButton {
 }
 
 pinButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pins2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -81,8 +85,8 @@ pinButton {
 }
 
 patchButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Patches5.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -96,8 +100,8 @@ patchButton {
 
 
 crystalButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -110,8 +114,8 @@ crystalButton {
 }
 
 C1Button {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(QuartzBox6.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -124,8 +128,8 @@ C1Button {
 }
 
 addToCart {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background: black;
     background-size: contain;
     background-position: center;
@@ -135,14 +139,14 @@ addToCart {
     padding: 1% 2%;
     text-align: center;
     font-size: 100%;
-    position:relative;
-    left:-17%;
-    top:35%;
+    position: relative;
+    left: -17%;
+    top: 35%;
 }
 
 emptyCart {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cart.jpg) white;
     background-size: contain;
     background-position: center;
@@ -156,8 +160,8 @@ emptyCart {
 }
 
 MiscButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FannyPack4.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -171,8 +175,8 @@ MiscButton {
 
 
 checkoutButton {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(cart.jpg) white;
     background-size: contain;
     background-position: center;
@@ -186,20 +190,23 @@ checkoutButton {
 }
 
 .buttonCheckout {
+    height: auto;
+    width: 100%;
     text-align: right;
     position: relative;
     top: 0%;
 }
 .button2 {
+    height: auto;
+    width: 100%;
     text-align: center;
-    position:relative;
+    position: relative;
     top: 16%;
-
-
-
 }
 
 .button3 {
+    height: auto;
+    width: 100%;
     text-align: center;
     position: relative;
     top: 18%;
@@ -207,17 +214,23 @@ checkoutButton {
 
 
 .target {
-    text-align:center;
-    top:60%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    top: 60%;
 }
 
-.checkout{
-    text-align:center;
+.checkout {
+    height: auto;
+    width: 100%;
+    text-align: center;
     margin-top: 10%;
 }
 
 
 .emailForm {
+    height: auto;
+    width: 100%;
     text-align: center;
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -225,6 +238,8 @@ checkoutButton {
 }
 /* The hero image */
 .hero-image {
+    height: auto;
+    width: 100%;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     /*Set a specific height */
