@@ -160,11 +160,8 @@ checkoutButton {
 }
 
 .product{
-    background:white;
-    border: black 3px;
-    padding: 1% 2%;
     margin-left: 20%;
-    margin-top: -50%;
+
 }
 /* The hero image 
 /*.hero-image {
