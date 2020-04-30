@@ -136,7 +136,10 @@ checkoutButton {
 }
 
 .checkoutPaypal {
+    width:50%;
     text-align: center;
+    margin-left: 30%;
+    margin-top:25%;
  
 }
 
