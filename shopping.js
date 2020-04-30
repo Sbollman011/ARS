@@ -1,8 +1,24 @@
 
-var C1 = {
-    id: "C1",
-    name: "Crystal",
+var genericPatch = {
+    id: "p1",
+    name: "Patch",
     description: "A hand-dug Crystal from the Ozarks",
+    price: .01
+
+};
+
+var genericSticker = {
+    id: "s1",
+    name: "Sticker",
+    description: "Apocalypse Rock Sticker",
+    price: .01
+
+};
+
+var genericPin = {
+    id: "pin1",
+    name: "Pin",
+    description: "Apocalypse Rock Pin",
     price: .01
 
 };
@@ -24,7 +40,7 @@ function getTotal() {
         response = response + cart[i].name + " : $" + cart[i].price + '<br/>';
     }
 
-    response = response + "Your total is $" + total;
+    response = response + "Your total is $" + Math.round((total + Number.EPSILON) * 100) / 100;
    // alert(response);
     document.getElementById("insert").innerHTML = response;
    // document.getElementById(response).value = response;
@@ -35,19 +51,44 @@ function getTotal() {
 }
 
 function amountDue() {
-    return total;
+    return Math.round((total + Number.EPSILON) * 100) / 100;
 }
-function addToCartC1() {
+function addToCartP1() {
     var cart = (localStorage.getItem("cart"));
     cart = JSON.parse(cart);
-    C1 = new Object();
-    C1.name = "Crystal"
-    C1.price = .01;
-    cart.push(C1);
+    p1 = new Object();
+    p1.name = "Patch"
+    p1.price = .01;
+    cart.push(p1);
     items = cart.length;
-    alert(C1.name + " has been added to your cart. You now have a total of " + items + " items in your cart");
+    alert(p1.name + " has been added to your cart. You now have a total of " + items + " items in your cart");
     localStorage.setItem('cart', JSON.stringify(cart));
 }
+
+function addToCartS1() {
+    var cart = (localStorage.getItem("cart"));
+    cart = JSON.parse(cart);
+    s1 = new Object();
+    s1.name = "Sticker"
+    s1.price = .01;
+    cart.push(s1);
+    items = cart.length;
+    alert(s1.name + " has been added to your cart. You now have a total of " + items + " items in your cart");
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function addToCartPin1() {
+    var cart = (localStorage.getItem("cart"));
+    cart = JSON.parse(cart);
+    pin1 = new Object();
+    pin1.name = "Pin"
+    pin1.price = .01;
+    cart.push(s1);
+    items = cart.length;
+    alert(pin1.name + " has been added to your cart. You now have a total of " + items + " items in your cart");
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
 function emptyCart() {
     var cart = (localStorage.getItem("cart"));
     cart = cart ? cart.split(',') : [];

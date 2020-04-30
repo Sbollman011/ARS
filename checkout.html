@@ -39,7 +39,8 @@
         <br />
         <button2 style="margin:16px" onclick="document.location = 'Crystals.html'">Crystals</button2>
         <br />
-        <button2 style="margin:16px" onclick="document.location = 'Misc.html'">Miscellaneous</button2>
+        <button2 style="margin:16px" onclick="document.location = 'Misc.html'">Misc.</button2>
+
 
     </div>
 
@@ -60,23 +61,23 @@
 
         <!-- Add the checkout buttons, set up the order and approve the order -->
         <script>
-paypal.Buttons({
-                createOrder: function (data, actions) {
-                    return actions.order.create({
-                        purchase_units: [{
-                            amount: {
-                                value: amountDue()
+            paypal.Buttons({
+                            createOrder: function (data, actions) {
+                                return actions.order.create({
+                                    purchase_units: [{
+                                        amount: {
+                                            value: amountDue()
+                                        }
+                                    }]
+                                });
+                            },
+                            onApprove: function (data, actions) {
+                                return actions.order.capture().then(function (details) {
+                                    alert('Transaction completed by ' + details.payer.name.given_name);
+                                    emptyCart();
+                                });
                             }
-                        }]
-                    });
-                },
-                onApprove: function (data, actions) {
-                    return actions.order.capture().then(function (details) {
-                        alert('Transaction completed by ' + details.payer.name.given_name);
-                        emptyCart();
-                    });
-                }
-}).render('#paypal-button-container'); // Display payment options on your web page
+            }).render('#paypal-button-container'); // Display payment options on your web page
         </script>
 
     </div>

@@ -21,10 +21,9 @@ p {
     text-align: center;
     color: black;
     font-size: 175%;
-    margin-left: 45%;
+    margin-left: 25%;
     margin-right: 10%;
     position:absolute;
-    font-family: v
 
 }
 
@@ -112,6 +111,8 @@ emptyCart {
     text-align: right;
     text-decoration: none;
     font-size: 125%;
+    border-style: solid;
+    border-color: black;
 }
 .emptyCart {
     color: black;
@@ -123,15 +124,13 @@ emptyCart {
 
 checkoutButton {
     color: white;
-    padding: 1% 5%;
+    padding: 1% 3%;
     text-align: center;
     text-decoration: none;
     font-size: 115%;
+    border: 3px white;
+    border-style: solid;
     border-color: white;
-    background: url(shoppingcart.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-   
 }
 
 
@@ -156,17 +155,18 @@ checkoutButton {
     height: auto;
     text-align: right;
     margin-top: -5%;
-    margin-right: 3%;
+    margin-right: 5%;
+
 }
 
 .checkoutPaypal {
 
     width:20%;
     height:150%;
-    text-align: center;
-    margin-left: 42.5%;
+    text-align: right;
     margin-top:5%;
-    position: absolute;
+    margin-left:78%;
+
  
 }
 
@@ -217,6 +217,12 @@ checkoutButton {
     margin-top: 5%;
     position: absolute;
     display: inline;
+}
+
+.image {
+    text-align:center;
+    margin-top:15%;
+    margin-left:12%;
 }
 /* The hero image 
 /*.hero-image {
@@ -329,5 +335,5 @@ MiscButton {
     text-align: center;
     text-decoration: none;
     font-size: 250%;
-}
+}*/
     
