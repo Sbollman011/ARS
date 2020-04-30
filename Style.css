@@ -21,8 +21,9 @@ p {
     text-align: center;
     color: black;
     font-size: 175%;
-    margin-left: 15%;
+    margin-left: 45%;
     margin-right: 10%;
+    position:absolute;
 
 }
 
@@ -94,9 +95,16 @@ addToCart {
 }
 
 emptyCart {
-    color: white;
+    color: black;
     padding: 1% 2%;
-    text-align: center;
+    text-align: right;
+    text-decoration: none;
+    font-size: 125%;
+}
+.emptyCart {
+    color: black;
+    padding: 1% 2%;
+    text-align: right;
     text-decoration: none;
     font-size: 125%;
 }
@@ -142,6 +150,7 @@ checkoutButton {
     text-align: center;
     margin-left: 42.5%;
     margin-top:5%;
+    position: absolute;
  
 }
 
@@ -163,11 +172,33 @@ checkoutButton {
 
 }
 
-.product{
+.product1{
     margin-left: 20%;
     margin-top:5%;
     position:absolute;
+    display:inline;
 
+}
+
+.product2 {
+    margin-left: 40%;
+    margin-top: 5%;
+    position: absolute;
+    display: inline;
+}
+
+.product3 {
+    margin-left: 60%;
+    margin-top: 5%;
+    position: absolute;
+    display: inline;
+}
+
+.product4 {
+    margin-left: 80%;
+    margin-top: 5%;
+    position: absolute;
+    display: inline;
 }
 /* The hero image 
 /*.hero-image {

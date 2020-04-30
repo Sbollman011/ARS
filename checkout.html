@@ -17,7 +17,6 @@
         <h1>Apocalypse Rock'N Shop </h1>
         <div class="checkout">
             <checkoutButton onclick="document.location = 'checkout.html'">Checkout</checkoutButton>
-            <emptyCart onclick=emptyCart()>Empty Cart</emptyCart>
         </div>
         <div class="button">
             <button1 onclick="document.location = 'Products.html'">About</button1>
@@ -49,10 +48,15 @@
     </script>
 
     <p id="insert"></p>
-
+    <div class="emptyCart">
+        <emptyCart onclick=emptyCart()>Empty Cart</emptyCart>
+    </div>
 
     <div class="checkoutPaypal">
+
+
         <div id="paypal-button-container"></div>
+
 
         <!-- Add the checkout buttons, set up the order and approve the order -->
         <script>
@@ -76,5 +80,8 @@ paypal.Buttons({
         </script>
 
     </div>
+
+
+   
 </body>
 </html>
