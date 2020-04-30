@@ -8,7 +8,7 @@ h1 {
     background-size: contain;
     color: white;
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 h2{
@@ -20,10 +20,9 @@ h2{
 p {
     text-align: center;
     color: black;
-    font-size: 150%;
+    font-size: 175%;
     margin-left: 15%;
     margin-right: 10%;
-    margin-top: -50%;
 
 }
 
@@ -66,16 +65,17 @@ button1 {
 
 button2 {
     border: black 3px;
-    font-size: 150%;
+    font-size: 175%;
     text-align: left;
     display: block;
 }
+
 .button2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     border:black 3px;
     color: white;
     height: auto;
-    width: 12%;
+    width: 15%;
     height:100%;
     text-align: center;
     margin-top:0%;
@@ -145,7 +145,6 @@ checkoutButton {
     color:black;
     text-align: center;
     color: white;
-    margin-top: -50%;
 }
 
 
